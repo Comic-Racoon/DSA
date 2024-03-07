@@ -21,7 +21,7 @@ public class _06_print_all_divisors {
         System.out.println();
     }
 
-    public static void printDivisorsOptimal(int n){
+     static void printDivisorsOptimal(int n){
 
         System.out.println("The divisors of "+n+" are:");
         for(int i = 1; i <= (int)Math.sqrt(n); i++)
